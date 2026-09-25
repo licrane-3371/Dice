@@ -42,36 +42,38 @@ class Die
   void show()
   {
     fill(255,255,255);
-    square(x, y, 50);
+    rect(x, y, 50, 50);
     fill(0,0,0);
     if (value == 1){
-      circle(x+25,y+25, 10);
+      ellipse(x+25,y+25, 10, 10);
     }else if (value == 2){
-      circle(x+15,y+15, 10);
-      circle(x+35,y+35, 10);
+      ellipse(x+15,y+15, 10, 10);
+      ellipse(x+35,y+35, 10, 10);
     }else if (value == 3){
-      circle(x+10,y+10, 10);
-      circle(x+25,y+25, 10);
-      circle(x+40,y+40, 10);
+      ellipse(x+10,y+10, 10, 10);
+      ellipse(x+25,y+25, 10, 10);
+      ellipse(x+40,y+40, 10, 10);
     }else if (value == 4){
-      circle(x+10,y+10, 10);
-      circle(x+40,y+10, 10);
-      circle(x+10,y+40, 10);
-      circle(x+40,y+40, 10);
+      ellipse(x+10,y+10, 10, 10);
+      ellipse(x+40,y+10, 10, 10);
+      ellipse(x+10,y+40, 10, 10);
+      ellipse(x+40,y+40, 10, 10);
     }else if (value == 5){
-      circle(x+10,y+10, 10);
-      circle(x+40,y+10, 10);
-      circle(x+25,y+25, 10);
-      circle(x+10,y+40, 10);
-      circle(x+40,y+40, 10);
+      ellipse(x+10,y+10, 10, 10);
+      ellipse(x+40,y+10, 10, 10);
+      ellipse(x+25,y+25, 10, 10);
+      ellipse(x+10,y+40, 10, 10);
+      ellipse(x+40,y+40, 10, 10);
     }else if (value == 6){
-      circle(x+10,y+10, 10);
-      circle(x+10,y+25, 10);
-      circle(x+10,y+40, 10);
-      circle(x+40,y+40, 10);
-      circle(x+40,y+25, 10);      
-      circle(x+40,y+10, 10);
+      ellipse(x+10,y+10, 10, 10);
+      ellipse(x+10,y+25, 10, 10);
+      ellipse(x+10,y+40, 10, 10);
+      ellipse(x+40,y+40, 10, 10);
+      ellipse(x+40,y+25, 10, 10);      
+      ellipse(x+40,y+10, 10, 10);
     }
       
+    }
+  } 
     }
   }
