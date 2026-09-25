@@ -21,7 +21,7 @@ void draw()
 }
 void mousePressed()
 {
-  
+  redraw();
 }
 class Die
 {
